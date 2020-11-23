@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    left: 10px; 
+    padding: 5px;
+    width: 150px;
+}
+#obstakel{
+    position: relative; 
+    right: 100px;
+}
+#filmklassieken{
+    position: absolute;
+    top: 500px; 
+    left: 100px;
+    width: 100%;
+}
+
+h1 {
+    position: absolute; 
+    left: 10px; 
+    top: 130px; 
+    color: purple;
+}
+
+h2 {
+    position: absolute;
+    top: 450px; 
+    left: 100px; 
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 20%;
+}
+
+.filmseries {
+    position: relative;
+    float: left; 
+    width: 100%;
+}
+ 
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+    background-color: white;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px; 
+    color: black; 
+    text-decoration: none; 
+}
+
+header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    padding: 30px 10%;
+}
+
+.logo {
+    top:10px;
+    left: 10px; 
+    cursor: pointer;
+}
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;  
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: blue; 
+}
+
+button {
+    padding: 9px 25px; 
+    background-color: white;
+    border: none;
+    border-radius: 50px; 
+    cursor: pointer; 
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: red;
+}
