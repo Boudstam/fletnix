@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
 
-h1{
-    position: relative;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-}
-h2{ 
-    position: absolute; 
-    right: 200px; 
-}
 img {
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -16,10 +7,40 @@ img {
     padding: 5px;
     width: 150px;
 }
+.container{
+    position: relative;
+    width: 300px; 
+    left: 40%; 
+}
+
+.opzoeken-doos{
+     width: 100%;
+     position: relative;
+     display: flex; 
+}
+
+.opzoeken{
+    width: 100%;
+    border: 3px solid black ; 
+    padding: 5px; 
+    height: 30px; 
+    outline: none; 
+    color: black; 
+}
+.filmseries {
+    float: left;
+    width: 15%;
+  }
+.filmreeks::after {
+    content: "";
+    clear: both;  
+    display: table;
+}
+
 * {
     box-sizing: border-box;
     margin: 0; 
-    padding: 0; 
+    padding: 5; 
     background-color: white;
 }
 
@@ -33,7 +54,7 @@ li, a, button {
 
 header {
     display: flex; 
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center; 
     padding: 30px 10%;
 }
@@ -43,7 +64,6 @@ header {
     left: 10px; 
     cursor: pointer;
 }
-
 .nav__links {
     list-style: none;
 }
